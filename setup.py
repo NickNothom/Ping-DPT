@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='Ping-DPT',
     version='0.1',
-    packages=['Ping-DPT'],
+    scripts=['ping-dpt-logger.py'],
     install_requires=[
         'pynmea2',
         'bluerobotics-ping',
