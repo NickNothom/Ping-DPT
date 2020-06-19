@@ -17,7 +17,9 @@ or
 `
 
 # Usage
-You must specify the serial port of your Ping device. The default baud rate is 115200. By default, it will create a log folder in your current directory and store logs there. You can alternatively specify a directory. 
 
 `ping-dpt-logger.py --device /dev/ttyUSB0`
+
+
+You must specify the serial port of your Ping device. The default baud rate is 115200. By default, it will create a log folder in your current directory and store logs there. You can alternatively specify a directory. Run `ping-dpt-logger.py` with no flags to see the options.
 
